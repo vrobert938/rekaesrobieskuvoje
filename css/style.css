@@ -1844,4 +1844,15 @@ html {
   scroll-behavior: smooth;
 }
 
+select {
+  background-color: rgba(128, 128, 128, 0.15); /* Átlátszó szürke háttér */
+  color: rgb(143, 143, 143); /* Fehér szövegszín */
+  border: none; /* Eltávolítjuk a keretet */
+}
+
+select option {
+  background-color: rgba(128, 128, 128, 0.15); /* Az opciók is átlátszó szürkék lesznek */
+  color: rgb(143, 143, 143); /* Fehér szövegszín az opciókhoz is */
+}
+
 /*# sourceMappingURL=style.css.map */
