@@ -372,9 +372,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-counter .fh5co-heading span,
 #fh5co-event .fh5co-heading span {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.8);
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 15px;
   letter-spacing: 2px;
   font-weight: 600;
 }
@@ -1342,7 +1342,7 @@ form label {
   color: #fff;
 }
 #fh5co-started .fh5co-heading p {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 1);
 }
 #fh5co-started .form-control {
   background: rgba(255, 255, 255, 0.2);
@@ -1853,6 +1853,32 @@ select {
 select option {
   background-color: rgba(128, 128, 128, 0.15); /* Az opciók is átlátszó szürkék lesznek */
   color: rgb(143, 143, 143); /* Fehér szövegszín az opciókhoz is */
+}
+
+.fh5co-bg2 {
+  background-image: url('images/01.jpeg');
+  background-attachment: fixed; /* Ez teszi fix pozíciójúvá a hátteret */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay2 {
+  background-color: rgba(0, 0, 0, 0.5); /* Fekete árnyalat az átlátszósággal */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+a[href^="tel:"] {
+  color: white; /* Beállítja a link színét fehérre */
+  /*text-decoration: none;*/ /*Eltávolítja az aláhúzást*/
+}
+
+a[href^="tel:"]:visited {
+  color: white; /* Beállítja a már meglátogatott link színét is fehérre */
 }
 
 /*# sourceMappingURL=style.css.map */

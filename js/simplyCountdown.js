@@ -230,7 +230,7 @@
                         ? parameters.words.seconds + parameters.words.pluralLetter
                         : parameters.words.seconds;
 
-                } else {
+                } else { 
                     dayWord = parameters.words.days;
                     hourWord = parameters.words.hours;
                     minuteWord = parameters.words.minutes;
