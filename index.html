@@ -457,13 +457,15 @@
 	</script> -->
 
 	<script>
-		var d = new Date('2024-05-11T14:30:00');
+		var d = new Date('2024-05-11T18:00:00');
 
 		// default example
 		simplyCountdown('.simply-countdown-one', {
 			year: d.getFullYear(),
 			month: d.getMonth() + 1,
-			day: d.getDate()
+			day: d.getDate(),
+			hours: d.getHours(),
+			minutes: d.getMinutes()
 		});
 
 		//jQuery example
@@ -471,6 +473,8 @@
 			year: d.getFullYear(),
 			month: d.getMonth() + 1,
 			day: d.getDate(),
+			hours: d.getHours(),
+			minutes: d.getMinutes(),
 			enableUtc: false
 		});
 	</script>

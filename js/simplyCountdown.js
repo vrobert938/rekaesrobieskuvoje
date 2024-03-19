@@ -122,11 +122,11 @@
                 minutes: 0,
                 seconds: 0,
                 words: {
-                    days: 'day',
-                    hours: 'hour',
-                    minutes: 'minute',
-                    seconds: 'second',
-                    pluralLetter: 's'
+                    days: 'nap',
+                    hours: 'óra',
+                    minutes: 'perc',
+                    seconds: 'másodperc',
+                    pluralLetter: ''
                 },
                 plural: true,
                 inline: false,
